@@ -27,7 +27,7 @@ Exiba o nome do ramo atual. Na condição onde HEAD esteja desanexado, nada é i
 git branch --show-current
 ```
 
-- git-branch - Lista, cria ou exclui ramificações
+- git-checkout - Alterne entre os ramos ou restaure os arquivos da árvore de trabalho
 ```bash
-git branch dev1
+git checkout dev1
 ```
