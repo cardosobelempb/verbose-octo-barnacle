@@ -30,4 +30,5 @@ git branch --show-current
 - git-checkout - Alterne entre os ramos ou restaure os arquivos da árvore de trabalho
 ```bash
 git checkout dev1
+git switch dev2
 ```
