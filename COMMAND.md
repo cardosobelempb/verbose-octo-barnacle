@@ -34,7 +34,6 @@ git branch --show-current
 git checkout dev1
 git switch dev2
 ```
-<<<<<<< HEAD
 - git checkout -b <novo-ramo>
 Crie uma nova ramificação chamada <-novo-ramo>, inicie-a em <ponto-de-partida>; e verifique o ramo criado; para obter mais detalhes consulte git-branch[1].
 
@@ -46,11 +45,16 @@ Para cada ramo atualizado ou impulsionada com êxito, adicione uma referência "
 
 ```bash
 git push --set-upstream origin dev4
-=======
+```
 
 - Com uma opção -m ou -M, <ramo-antigo> será renomeado para <novo-ramo>. Caso o <ramo-antigo> tenha um "reflog" correspondente, ele será renomeado para corresponder ao <novo-ramo>, e uma entrada no "reflog" será criada para lembrar a renomeação do ramo. Se o <novo-ramo> já existir, a opção -M deverá ser usada para impor a renomeação.
-- 
+  
 ```bash
 git branch -M <novo-ramo>
->>>>>>> dev4
+```
+
+- git-merge - Une dois ou mais históricos de desenvolvimento
+  
+```bash
+git merge [-n] [--stat] [--no-commit]
 ```
